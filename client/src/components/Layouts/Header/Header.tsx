@@ -1,5 +1,5 @@
 import React from "react"
-import NavbarComponent from "./NavbarComponent"
+import NavbarComponent from "../../NavbarComponent"
 
 const Header = () => {
     return (

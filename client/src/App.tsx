@@ -2,16 +2,14 @@ import React from "react"
 
 import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import Header from "./components/Header"
-import Main from "./components/Main"
-import Footer from "./components/Footer"
+
+import Layout from "./components/Layouts/Layout"
+import styles from "./components/Layouts/Layout.module.css"
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            <Main />
-            <Footer />
+        <div className={`App ${styles.layout}`}>
+            <Layout />
         </div>
     )
 }
